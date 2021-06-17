@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <FetchDataFire />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FetchDataFire from './components/1FetchDataFire.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FetchDataFire
   }
 }
 </script>
@@ -24,5 +24,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  margin-block-end: 0%;
 }
 </style>
